@@ -29,7 +29,7 @@ public class RobotContainer {
   private final SwerveRequest.PointWheelsAt point = new SwerveRequest.PointWheelsAt();
 
   /* Path follower */
-  private Command runAuto = drivetrain.getAutoPath("Tests");
+  private Command runAuto = drivetrain.getAutoPath("move1m");
 
   private final Telemetry logger = new Telemetry(MaxSpeed);
 
